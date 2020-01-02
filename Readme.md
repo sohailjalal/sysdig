@@ -14,7 +14,7 @@ NOTE: This tutorial will create a cluster in us-west-1 using the 10.0.0.0/16 sub
 
 ## EKS Installation with terraform
 ```
-- git clone https://github.com/Eslamanwar/sysdig-testing.git
+- git clone https://github.com/sohailjalal/sysdig.git
 - export AWS_ACCESS_KEY_ID={YOUR-AWS-ACCESS-KEY-ID}
 - export AWS_SECRET_ACCESS_KEY={YOUR-AWS-SECRET-ACCESS-KEY}
 - cd eks/
@@ -55,12 +55,11 @@ kubectl get nodes -o wide
 
 ## Results
 - with sysdig you can monitor the Network traffic between pods
-![alt text](https://github.com/Eslamanwar/sysdig-testing/blob/master/images/network-traffic.png?raw=true)
 
 
 
-- It can be intergrated to collect promethues metrics for the sample application we just created
-![alt text](https://github.com/Eslamanwar/sysdig-testing/blob/master/images/Promethus-metrics.png?raw=true)
+
+- It can be intergrated to collect promethues metrics for the sample application we just creatted
 
 
 
@@ -73,32 +72,6 @@ kubectl get nodes -o wide
 ```
 kubectl create -f prometheus/
 ```
-
-
-![alt text](https://github.com/Eslamanwar/sysdig-testing/blob/master/images/promethus.png?raw=true)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
